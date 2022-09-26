@@ -1,0 +1,81 @@
+.atrticle-box{
+	word-wrap:break-word;
+	text-align:left;
+	background-color:transparent;
+	width:750px;
+	height:auto;
+	border-radius: 10px;
+	padding: 5px 8px;
+	border-width:3px;
+	border-style:solid;
+	border-color:transparent;
+	background: rgba(0%,10%,20%,0.6);
+}
+.tr{
+	border-bottom:1pt solid black;
+	height: 40px;
+}
+body{
+	font-family: Microsoft JhengHei;
+	background-image: url(picture/圖片3.png);
+	background-size: cover;
+}
+.title{
+	text-decoration: none;
+	color: black;
+	font-weight:bold;
+}
+.titletext{
+	width: 260px;
+  	height: 35px;
+  	background: transparent;
+  	border: 2px solid rgba(255,255,255,0.6);
+  	border-radius: 5px;
+  	color: #fff;
+  	font-family: 'Exo', Microsoft JhengHei;
+  	font-size: 20px;
+  	font-weight: 400;
+  	padding: 6px;
+  	margin-left:15px;
+}
+.textarea{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 15px;
+	background: transparent;
+	border: 2px solid rgba(255,255,255,0.6);
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Exo', Microsoft JhengHei;
+	font-size: 20px;
+	padding: 6px;
+	resize:none;
+	width:600px;
+	height:200px;
+}
+
+
+.button{
+  width: 128px;
+  height: 35px;
+  background: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #a18d6c;
+  font-family: 'Exo', Microsoft JhengHei;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px;
+  margin-top: 410px;
+  margin-left: 300px;
+}
+.button:hover{
+  opacity: 0.8;
+}
+.button:active{
+  opacity: 0.6;
+}
+.button:focus{
+  outline: none;
+}
